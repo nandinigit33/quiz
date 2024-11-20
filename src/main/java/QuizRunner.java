@@ -43,7 +43,7 @@ Choice[] q1Choices = new Choice[]{
 
         //Add questions to the quiz
 
-        quiz.addQuestion(new Question[]{question1, question2, question3});
+        quiz.addQuestions(new Question[]{question1, question2, question3});
         //Interact with user (run quiz, giving score)
 
         quiz.run();
